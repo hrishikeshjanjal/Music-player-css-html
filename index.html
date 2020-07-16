@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://kit.fontawesome.com/66b7ea86d8.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<header>
+
+		<div class="left-side">
+			<a href="#" class="logo"><img src="images/logo.jpg" alt="player image"></a>
+
+			<div class="mrlhalfrem white fontSize1pt8rem">Music<br>Player</div>
+
+			<a href="#" class="favourites mrl2rem white noUnderline"><b>Favourites</b></a>
+		</div>
+
+		<div class="right-side">
+			<div class="search-bar">
+				<form>
+					<button type="submit" class="border-background-none"><i class="fas fa-search white"></i></button>
+					<input type="text" class="border-background-none" name="search" placeholder="Search">
+					<a href="#"><i class="fas fa-microphone white"></i></a>
+				</form>
+			</div>
+
+			<a href="#"><i class="fas fa-bell white"></i></a>
+			
+			<a href="#" class="user-image"><img src="images/rishi.JPG" alt="profile"></a>
+		</div>
+
+		<input type="checkbox" name="" id="hamburger">
+		<label for="hamburger" class="hamburger"><i class="fas fa-bars white"></i></label>
+		<div id="hamburger-content">
+			<ul>
+				<li class="mtbhalfrem"><a href="#" class="noUnderline white">Account</a></li>
+				<li class="mtbhalfrem"><a href="#" class="noUnderline white">Notifications</a></li>
+				<li class="mtbhalfrem"><a href="#" class="noUnderline white">Favourites</a></li>
+			</ul>
+		</div>
+
+	</header>
+
+	<main>
+
+		<div class="main-body">
+
+			<div class="album-slide">
+				  <div class="album-item left-album">
+				  	<img src="images/saho.JPG">
+				  </div>
+
+				  <div class="album-item middle-album">
+				  	<img src="images/saho2.JPG">
+				  </div>
+
+				  <div class="album-item right-album">
+				  	<img src="images/saho3.JPG">
+				  </div>
+			</div>
+
+			<div class="queue mtb2rem">
+
+				<div class="queue-header">
+					<h2 class="white mtb0">Queue</h2>
+					<input type="checkbox" name="" id="main-queue-dropdown">
+					<label for="main-queue-dropdown" class="blue">Queue <i class="fas fa-caret-down"></i></label>
+					<div id="queue-dropdown">
+						<a href="#" class="mtb0 mrl1rem noUnderline">Playlists</a>
+						<hr>
+						<a href="#" class="mtb0 mrl1rem noUnderline">Favourite Songs</a>
+					</div>
+				</div>
+				
+				<div id="queue-list">
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest1.jpg">
+							<div>
+								<h4 class="mtb0">Attention</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">02</span>
+							<img class="mrlhalfrem" src="images/latest2.jpg">
+							<div>
+								<h4 class="mtb0">We dont talk anymore!</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">03</span>
+							<img class="mrlhalfrem" src="images/latest3.jpg">
+							<div>
+								<h4 class="mtb0">I warned myself</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">04</span>
+							<img class="mrlhalfrem" src="images/latest4.jpg">
+							<div>
+								<h4 class="mtb0">Chandlier</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">05</span>
+							<img class="mrlhalfrem" src="images/latest5.jpg">
+							<div>
+								<h4 class="mtb0">Patient</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">06</span>
+							<img class="mrlhalfrem" src="images/latest6.jpg">
+							<div>
+								<h4 class="mtb0">Change</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">07</span>
+							<img class="mrlhalfrem" src="images/latest5.jpg">
+							<div>
+								<h4 class="mtb0">Betty Boop</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">08</span>
+							<img class="mrlhalfrem" src="images/latest2.jpg">
+							<div>
+								<h4 class="mtb0">How long</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">09</span>
+							<img class="mrlhalfrem" src="images/latest4.jpg">
+							<div>
+								<h4 class="mtb0">the way i am</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">10</span>
+							<img class="mrlhalfrem" src="images/latest6.jpg">
+							<div>
+								<h4 class="mtb0">Somebody told me</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+				</div>
+			</div>
+ 
+			<div class="latest-release mtb2rem">
+				<h3 class="white mtb0 mtbhalfrem">Latest Release</h3>
+
+				<div class="release-items">
+
+					<div class="release-item">
+						<div class="leftSide-item">
+							<a href="#" class="mtb0"><i class="fas fa-play white"></i><img src="images/latest1.jpg" class="mtb0"></a>
+							<div class="mrlhalfrem">
+								<h4 class="mtb0 white">Tere Naal Nachna</h4>
+								<h6 class="mtb0 grey">SEPT 11, 2019</h6>
+							</div>
+						</div>
+						<div class="rightSide-item">
+							<input type="checkbox" name="" id="rd1">
+							<label for="rd1"><i class="fas fa-ellipsis-h grey"></i></label>
+							<div>
+								<i class="fas fa-play grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Play </a>
+								<hr>
+								<i class="fas fa-plus grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Add To Queue</a>
+								<hr>
+								<i class="fas fa-star grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Add To Favourites</a>
+								<hr>
+								<i class="fas fa-info-circle grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Get Info</a>
+							</div>
+							<h5 class="mtb0 grey">3:24</h5>
+						</div>
+					</div>
+
+					<div class="release-item">
+						<div class="leftSide-item">
+							<a href="#"><i class="fas fa-play white"></i><img src="images/latest2.jpg"></a>
+							<div class="mrlhalfrem">
+								<h4 class="mtb0 white">Happy Happy</h4>
+								<h6 class="mtb0 grey">OCT 10, 2019</h6>
+							</div>
+						</div>
+						<div class="rightSide-item">
+							<input type="checkbox" name="" id="rd2">
+							<label for="rd2"><i class="fas fa-ellipsis-h grey"></i></label>
+							<div>
+								<i class="fas fa-play grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Play </a>
+								<hr>
+								<i class="fas fa-plus grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Add To Queue</a>
+								<hr>
+								<i class="fas fa-star grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Add To Favourites</a>
+								<hr>
+								<i class="fas fa-info-circle grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Get Info</a>
+							</div>
+							<h5 class="mtb0 grey">5:54</h5>
+						</div>
+					</div>
+
+					<div class="release-item">
+						<div class="leftSide-item">
+							<a href="#"><i class="fas fa-play white"></i><img src="images/latest3.jpg"></a>
+							<div class="mrlhalfrem">
+								<h4 class="mtb0 white">Dhakad</h4>
+								<h6 class="mtb0 grey">JAN 12, 2016</h6>
+							</div>
+						</div>
+						<div class="rightSide-item">
+							<input type="checkbox" name="" id="rd3">
+							<label for="rd3"><i class="fas fa-ellipsis-h grey"></i></label>
+							<div>
+								<i class="fas fa-play grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Play </a>
+								<hr>
+								<i class="fas fa-plus grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Add To Queue</a>
+								<hr>
+								<i class="fas fa-star grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Add To Favourites</a>
+								<hr>
+								<i class="fas fa-info-circle grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Get Info</a>
+							</div>
+							<h5 class="mtb0 grey">2:46</h5>
+						</div>
+					</div>
+
+					<div class="release-item">
+						<div class="leftSide-item">
+							<a href="#"><i class="fas fa-play white"></i><img src="images/latest4.jpg"></a>
+							<div class="mrlhalfrem">
+								<h4 class="mtb0 white">Kala Chashma</h4>
+								<h6 class="mtb0 grey">DEC 14, 2014</h6>
+							</div>
+						</div>
+						<div class="rightSide-item">
+							<input type="checkbox" name="" id="rd4">
+							<label for="rd4"><i class="fas fa-ellipsis-h grey"></i></label>
+							<div>
+								<i class="fas fa-play grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Play </a>
+								<hr>
+								<i class="fas fa-plus grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Add To Queue</a>
+								<hr>
+								<i class="fas fa-star grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Add To Favourites</a>
+								<hr>
+								<i class="fas fa-info-circle grey"></i><a href="#" class="mtb0 mrlhalfrem noUnderline">Get Info</a>
+							</div>
+							<h5 class="mtb0 grey">4:44</h5>
+						</div>
+					</div>
+				
+				</div>
+
+			</div>
+
+			<div class="popular-artists">
+				<h3 class="white mtb0 mtbhalfrem">Popular Artists</h3>
+				<div class="artist-list">
+					
+
+					<div class="artist">
+						<a href="single_playlist.html"><img src="images/ar rahman.jpg"></a>
+						<h6 class="white mtb0">A.R Rahman</h6>
+					</div>
+
+					
+
+					<div class="artist">
+						<a href="single_playlist.html"><img src="images/arijit singh.jpg"></a>
+						<h6 class="white mtb0">Arijit Singh</h6>
+					</div>
+
+					<div class="artist">
+						<a href="single_playlist.html"><img src="images/eminem.jpg"></a>
+						<h6 class="white mtb0">Eminem</h6>
+					</div>
+
+					<div class="artist">
+						<a href="single_playlist.html"><img src="images/atif aslam.jpg"></a>
+						<h6 class="white mtb0">Atif Aslam</h6>
+					</div>
+
+					<div class="artist">
+						<a href="single_playlist.html"><img src="images/taylor swift.jpg"></a>
+						<h6 class="white mtb0">Taylor Swift</h6>
+					</div>
+
+					<div class="artist">
+						<a href="single_playlist.html"><img src="images/katy perry.jpg"></a>
+						<h6 class="white mtb0">Katy Perry</h6>
+					</div>
+				</div>
+			</div>
+
+			<div class="stations mtb2rem">
+				<div class="station">
+					<h6 class="mtb0 textCenter white">Stations</h6>
+				</div>
+
+				<div class=" station-type love borderradius50">
+					<i class="fas fa-play white"></i>
+					<h6 class="mtb0 textCenter white">Love</h6>
+				</div>
+
+				<div class=" station-type retro borderradius50">
+					<i class="fas fa-play white"></i>
+					<h6 class="mtb0 textCenter white">Retro</h6>
+				</div>
+
+				<div class=" station-type chill borderradius50">
+					<i class="fas fa-play white"></i>
+					<h6 class="mtb0 textCenter white">Chill</h6>
+				</div>
+
+				<div class=" station-type workout borderradius50">
+					<i class="fas fa-play white"></i>
+					<h6 class="mtb0 textCenter white">Workout</h6>
+				</div>
+
+				<div class=" station-type rock borderradius50">
+					<i class="fas fa-play white"></i>
+					<h6 class="mtb0 textCenter white">Rock</h6>
+				</div>
+
+				<div class=" station-type pop borderradius50">
+					<i class="fas fa-play white"></i>
+					<h6 class="mtb0 textCenter white">Pop</h6>
+				</div>
+			</div>
+			
+			<div class="mood">
+
+				<div class="party mood-item">
+					<h5 class="white mtb0">Party</h5>
+				</div>
+
+				<div class="electronic mood-item">
+					<h5 class="white mtb0">Electronic</h5>
+				</div>
+
+				<div class="road-trip mood-item">
+					<h5 class="white mtb0">Road-Trip</h5>
+				</div>
+
+			</div>
+
+			<div class="latest-english mtb2rem">
+
+				<h3 class="white mtb0 mtbhalfrem">Latest English</h3>
+				<div class="english-list">
+					<div class="english-item">
+						<img src="images/latest1.jpg">
+						<h4 class="white mtb0">Fire Drill</h4>
+						<h6 class="grey mtb0">AUG 11, 2018</h6>
+					</div>
+
+					<div class="english-item">
+						<img src="images/latest2.jpg">
+						<h4 class="white mtb0">Savage Love</h4>
+						<h6 class="grey mtb0">SEPT 17, 2011</h6>
+					</div>
+
+					<div class="english-item">
+						<img src="images/latest3.jpg">
+						<h4 class="white mtb0">Just do it!</h4>
+						<h6 class="grey mtb0">JAN 13, 2013</h6>
+					</div>
+
+					<div class="english-item">
+						<img src="images/latest4.jpg">
+						<h4 class="white mtb0">Together</h4>
+						<h6 class="grey mtb0">NOVEM 14, 2018</h6>
+					</div>
+
+					<div class="english-item">
+						<img src="images/latest1.jpg">
+						<h4 class="white mtb0">Comeback</h4>
+						<h6 class="grey mtb0">DEC 21, 2020</h6>
+					</div>
+
+					<div class="english-item">
+						<img src="images/latest2.jpg">
+						<h4 class="white mtb0">Daises</h4>
+						<h6 class="grey mtb0">SEPT 30, 2013</h6>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="latest-hindi">
+
+				<h3 class="white mtb0 mtbhalfrem">Latest Hindi</h3>
+				<div class="english-list">
+					
+
+					<div class="english-item">
+						<img src="images/filhaal.jpg">
+						<h4 class="white mtb0">Kab tak</h4>
+						<h6 class="grey mtb0">SEPT 22, 2000</h6>
+					</div>
+
+					<div class="english-item">
+						<img src="images/war.jpg">
+						<h4 class="white mtb0">War</h4>
+						<h6 class="grey mtb0">JULY 12, 2101</h6>
+					</div>
+
+					
+
+					<div class="english-item">
+						<img src="images/vaaste.jpg">
+						<h4 class="white mtb0">Vaaste</h4>
+						<h6 class="grey mtb0">JAN 17, 2017</h6>
+					</div>
+
+					<div class="english-item">
+						<img src="images/gully boy.jpg">
+						<h4 class="white mtb0">Dhakkad</h4>
+						<h6 class="grey mtb0">SEPT 22, 2000</h6>
+					</div>
+
+					<div class="english-item">
+						<img src="images/tere mere.jpg">
+						<h4 class="white mtb0">Hila diya</h4>
+						<h6 class="grey mtb0">OCT 21, 2015</h6>
+					</div>
+
+					<div class="english-item">
+						<img src="images/chal ghar chalen.jpg">
+						<h4 class="white mtb0">Chal Ghar Chalen</h4>
+						<h6 class="grey mtb0">AUG 11, 2017</h6>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<aside>
+			
+			<div class="queue">
+
+				<div class="queue-header">
+					<h2 class="white mtb0">Queue</h2>
+					<input type="checkbox" name="" id="aside-queue-dropdown">
+					<label for="aside-queue-dropdown" class="blue">Queue <i class="fas fa-caret-down"></i></label>
+					<div id="queue-dropdown">
+						<a href="#" class="mtb0 mrl1rem noUnderline">Playlists</a>
+						<hr>
+						<a href="#" class="mtb0 mrl1rem noUnderline">Favourite Songs</a>
+					</div>
+				</div>
+				
+				<div id="queue-list">
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest1.jpg">
+							<div>
+								<h4 class="mtb0">Mirage</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest2.jpg">
+							<div>
+								<h4 class="mtb0">How long</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest3.jpg">
+							<div>
+								<h4 class="mtb0">Boy</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest6.jpg">
+							<div>
+								<h4 class="mtb0">The way i am</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest1.jpg">
+							<div>
+								<h4 class="mtb0">Chnadelier</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest2.jpg">
+							<div>
+								<h4 class="mtb0">The way i am</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest3.jpg">
+							<div>
+								<h4 class="mtb0">I warned myself</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest4.jpg">
+							<div>
+								<h4 class="mtb0">Change</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest5.jpg">
+							<div>
+								<h4 class="mtb0">Beety bob</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest6.jpg">
+							<div>
+								<h4 class="mtb0">We dont talk anymore</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+					<div class="queue-item">
+						<div class="left white">
+							<span class="sno">01</span>
+							<img class="mrlhalfrem" src="images/latest1.jpg">
+							<div>
+								<h4 class="mtb0">Attention</h4>
+								<h5 class="mtb0 grey">Charlie Puth</h5>
+							</div>
+						</div>
+
+						<div class="right">
+							<i class="far fa-heart white"></i>
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+			</div>
+		</aside>
+
+	</main>
+	
+	
+	<footer>
+		
+		<div class="music-playing">
+			<img src="images/war.jpg">
+			<div class="music-details">
+				<div>
+					<h5 class="white mtb0">Imagine Dragons</h5>
+					<h6 class="white">Dave Lemke</h6>
+				</div>
+				<i class="far fa-heart white"></i>
+				<i class="fas fa-ban white"></i>
+			</div>
+		</div>
+
+		<div class="music-controls mrlhalfrem">
+
+			<div class="button-control">
+				<i class="fas fa-random white"></i>
+				<i class="fas fa-backward white"></i>
+				<i class="far fa-pause-circle white"></i>
+				<i class="fas fa-forward white"></i>
+				<i class="fas fa-retweet white"></i>
+			</div>
+
+			<div class="music-details">
+				<h6 class="white">Imagine Dragons | Dave Lemke</h6>
+				<div>
+					<i class="far fa-heart white mrlhalfrem"></i>
+					<i class="fas fa-ban white"></i>
+				</div>
+			</div>
+
+			<div class="music-length">
+				<h6 class="white mtb0">1:39</h6>
+				<div class="slider">
+					<i class="fas fa-circle white"></i>
+					<div></div>
+				</div>
+				<h6 class="white mtb0">4:44</h6>
+			</div>
+			
+		</div>
+
+		<div class="right-control">
+			
+			<i class="fas fa-th-list white"></i>
+			<i class="fas fa-desktop white"></i>
+			<div class="volume-control">
+				<i class="fas fa-volume-up white"></i>
+				<div class="slider">
+					<i class="fas fa-circle white"></i>
+					<div></div>
+				</div>
+			</div>
+			<i class="fas fa-expand-alt white"></i>
+
+			</div>
+
+		</div>
+
+	</footer>
+
+</body>
+</html>
